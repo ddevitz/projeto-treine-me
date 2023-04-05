@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+cores
+azul: 89C5CC
+cinza: 7D7987
+verde: 69B99D
+
+*/
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(154, 252, 227, 0.38) 100%);
+
+    min-height: 100vh;
+}
+
+.page{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Mulish', sans-serif;
+
+    margin-bottom: 55px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1f1534;
+}
+
+ul li a{
+    opacity: 0.5;
+}
+
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    color: #1f1534;
+
+    width: 490px;    
+}
+
+h1 span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+section p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+
+    margin: 40px 0;
+}
+
+button{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: #69B99D;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3d846b;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+footer a{
+    font-weight: bold;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
